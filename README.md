@@ -1,4 +1,19 @@
-The folder "all notebooks" contains the python code for all the models that were implemented successfully.
-In order to run them you need to acquire the plant-village-dataset from kaggle and you can run and train the models on kaggle.
-The folder "plant_disease_detection" contains the website for plant disease detection code .
-In order to run the webiste you need to install nodejs and reactjs and then you can compile and run the website.
+# PhytoEZ - Plant Disease Detection by Image Classification
+
+Plant diseases pose a significant threat to global food security, causing substantial crop losses annually. Accurate and timely detection of these diseases is crucial for effective management and preservation of agricultural yields. This project aims to improve the detection of plant diseases through the use of convolutional neural networks.
+
+## Description of the project
+
+We have used the [PlantVillage dataset]( https://www.kaggle.com/datasets/emmarex/plantdisease) for obtaining the images of the crops. We have trained our model for 14 types of plamts with 38 classes of diseases being covered. Further, the images have been augmented to account for various possiblilties like varying colours (RGB, greyscale), images taken at an angle.
+
+For training the model on the dataset, we observed the performance of the pre-trained models of VGG 19 and used transfer learning by modifying the fully connected (FC) layers of the neural network.
+
+We also hosted our image detection model on the localhost using React where in the user can check the condition of the plant by uploading an image of the same.
+![Website](components/constants/backgr.jpg)
+
+## Tech stack used
+
+ReactJs
+Tensorflow
+Keras
+
