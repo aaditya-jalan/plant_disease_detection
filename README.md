@@ -9,11 +9,11 @@ We have used the [PlantVillage dataset]( https://www.kaggle.com/datasets/emmarex
 For training the model on the dataset, we observed the performance of the pre-trained models of VGG 19 and used transfer learning by modifying the fully connected (FC) layers of the neural network.
 
 We also hosted our image detection model on the localhost using React where in the user can check the condition of the plant by uploading an image of the same.
-![Website](plant_disease_detection/src/components/constants/backgr.jpg)
+![Website](plant_disease_detection/src/components/constants/backgr.jpg = 250*250)
 
 ## Tech stack used
 
-[ReactJs] <br />
-[Tensorflow] <br />
-[Keras] <br />
+[ReactJs](https://react.dev/) <br />
+[Tensorflow](https://www.tensorflow.org/) <br />
+[Keras](https://keras.io/) <br />
 
