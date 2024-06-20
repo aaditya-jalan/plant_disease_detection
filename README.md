@@ -1,6 +1,6 @@
 # PhytoEZ - Plant Disease Detection by Image Classification
 
-Plant diseases pose a significant threat to global food security, causing substantial crop losses annually. Accurate and timely detection of these diseases is crucial for effective management and preservation of agricultural yields. This project aims to improve the detection of plant diseases through the use of convolutional neural networks.
+Plant diseases pose a significant threat to global food security, causing substantial crop losses annually. Accurate and timely detection of these diseases is crucial for effective management and preservation of agricultural yields. This project, undertaken as a course project for the DA221M course at IIT Guwahati, aims to improve the detection of plant diseases through the use of convolutional neural networks.
 
 ## Description of the project
 
